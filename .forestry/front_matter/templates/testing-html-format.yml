@@ -1,4 +1,19 @@
 ---
 label: Testing HTML format
 hide_body: false
-fields: []
+fields:
+- name: title_for_html
+  type: text
+  config:
+    required: false
+  label: Title for html
+  description: Testing HTML file
+- name: testing_textarea_html
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Testing textarea html
