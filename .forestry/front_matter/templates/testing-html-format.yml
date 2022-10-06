@@ -17,3 +17,5 @@ fields:
     schema:
       format: markdown
   label: Testing textarea html
+pages:
+- posts/testhtml.html
